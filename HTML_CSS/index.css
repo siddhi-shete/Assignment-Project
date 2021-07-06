@@ -1,0 +1,491 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* css for header*/
+
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(172, 125, 63);
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    width:90%;
+   /* height: 80px;*/
+    /*background-color: #552121;*/
+    display: flex;
+}
+
+.header_container{
+    justify-content: space-between;
+}
+
+.logo{
+    height: 80px;
+    width: 20%;
+    background-color: #ffeb9c;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.nav{
+    height: 80px;
+    width: 30%;
+    /*background-color: darkgreen;*/
+    display: flex;
+}
+
+
+.nav-item{
+    width: 20%;
+    height: 80px;
+    /*background-color: darkgrey;*/
+    font-size: 16;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    background-color: #ffeb9c;
+    color:#552121 ;
+}
+
+.banner{
+    height: 550px;
+    width: 100%;
+  /*  background-color: coral;*/
+    background-image: url('./images/banner.jpg');
+
+}
+
+
+.banner_desc{
+    margin-bottom: 15px;
+}
+
+.overlay{
+    height: 550px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+
+.banner_text{
+    height:250px ;
+    width: 35%;
+    background-color:rgba(109,103,103,0.7);
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    display: flex;
+    align-items: center;
+    color:#ffeb9c;
+
+}
+
+.padd{
+    padding: 20px;
+   /* background-color: crimson;*/
+}
+
+.banner_btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    border: 3px solid black ;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+
+.banner_btn:hover{
+    color:black;
+    background-color: #ffeb9c;
+
+}
+
+/*css for services*/
+
+.services{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffeb9cb3;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.services_container{
+    margin-top:40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service{
+    height: 300px;
+    width: 30%;
+   /* background-color:red;*/
+    display: flex;
+}
+
+.service_img{
+    width: 30%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    
+}
+
+.service_details{
+    width:70% ;
+    height:300px ;
+    background-color:rgba(0,0,0,0.3);
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.service_btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.service_btn:hover{
+    background-color:black;
+    color:white;
+}
+
+
+.service_title{
+    margin-bottom: 15px;
+}
+
+.service_desc{
+    margin-bottom:  30px;
+}
+
+/* CSS FOR ABOUT */
+
+.about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    font-family: segoe UI;
+    align-items: center;
+}
+
+.about-container
+{
+    margin-top: 30px;
+    line-height: 30px;
+    display: inline;
+}
+
+.start_text
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    /* font-weight: bold; */
+}
+
+
+/* CSS FOR HIGHLIGHT */
+
+.highlight
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color:rgb(172, 125, 63);
+    display: flex;
+    justify-content: center;
+}
+
+.highlight_container
+{
+    justify-content: space-between;
+}
+
+.high_ele
+{
+    width:  22%;
+    height: 230px;
+    background-color:#ffeb9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: segoe UI;
+    text-align: center;
+}
+
+.high_title
+{
+    font-size: 60px;
+}
+
+.high_desc
+{
+    font-size: 30px;
+}
+ 
+.quote
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    font-family: Segoe UI;
+}
+
+/* Quote */
+
+.quote_container
+{
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote_title
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.quote_btn
+{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    font-family: segoe UI;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.quote_btn:hover{
+    background-color:black ;
+    color:white ;
+}
+/* PORTFOLIO */
+
+.portfolio
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-family: segoe UI;
+}
+
+.portfolio_container
+{
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project
+{
+    width: 25%;
+    height: 300px;
+   /* background-color:greenyellow;*/
+    display: flex;
+}
+
+.project_1
+{
+    background-image: url('https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project_2
+{
+    background-image: url('https://images.pexels.com/photos/3601422/pexels-photo-3601422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_3
+{
+    background-image: url('https://images.pexels.com/photos/3222685/pexels-photo-3222685.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project_4
+{
+    background-image: url('https://images.pexels.com/photos/4450334/pexels-photo-4450334.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_5
+{
+    background-image: url('https://images.pexels.com/photos/262524/pexels-photo-262524.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project_6
+{
+    background-image: url('https://images.pexels.com/photos/1907786/pexels-photo-1907786.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_7
+{
+    background-image: url('https://images.pexels.com/photos/3769146/pexels-photo-3769146.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project_8
+{
+    background-image: url('https://images.pexels.com/photos/1327430/pexels-photo-1327430.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_title
+{
+    color:black;
+    width: 100%;
+    height: 150px;
+    text-indent: 30px;
+    line-height: 150px;
+    background-color:rgba(255, 235, 156,0.7);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.project_title:hover
+{
+    height: 300px;
+}
+
+
+/* Footer Section */
+
+.footer
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:  rgb(172, 125, 63);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_child
+{
+    height: 300px;
+    width: 65%;
+    /* background-color: gray; */
+    font-family: segoe UI;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.footer_child_1
+{
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+
+}
+
+ul
+{
+    margin-top: 40px;
+}
+
+li
+{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.first
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer_child_4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_container
+{
+    width: 60%;
+    justify-content: space-between;
+}
+
+.social_icon
+{
+    height: 25px;
+    width: 25px;
+    /* background-color: white; */
+    background-size: cover;
+}
+
+.si1
+{
+    background-image: url('./images/Facebook.jpeg');
+}
+
+.si2
+{
+    background-image: url('./images/Google.jpeg');
+}
+
+.si3
+{
+    background-image: url('./images/Instagram.jpeg');
+}
+
+.si4
+{
+    background-image: url('./images/LinkedIn.jpeg');
+}
